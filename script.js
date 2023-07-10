@@ -4,6 +4,11 @@ generateBtn = wrapper.querySelector(".form button"),
 qrImg = wrapper.querySelector(".qr-code img");
 let preValue;
 
+function openScanPage() {
+    // Redirect to the new HTML page
+    window.location.href = "scanQR.html";
+}
+
 generateBtn.addEventListener("click", () => {
     let qrValue = qrInput.value.trim();
     if(!qrValue || preValue === qrValue) return;

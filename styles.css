@@ -14,7 +14,7 @@ body{
   justify-content: center;
 }
 .wrapper{
-  height: 265px;
+  height: 325px;
   max-width: 410px;
   background: #fff;
   border-radius: 7px;
@@ -23,7 +23,7 @@ body{
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 .wrapper.active{
-  height: 530px;
+  height: 578px;
 }
 header h1{
   font-size: 21px;
