@@ -5,7 +5,7 @@ infoText = form.querySelector("p"),
 closeBtn = document.querySelector(".close"),
 copyBtn = document.querySelector(".copy");
 
-function openGeneratePage() {
+function openIndexPage() {
     // Redirect to the new HTML page
     window.location.href = "generateQR.html";
 }
