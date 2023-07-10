@@ -7,7 +7,7 @@ copyBtn = document.querySelector(".copy");
 
 function openIndexPage() {
     // Redirect to the new HTML page
-    window.location.href = "generateQR.html";
+    window.location.href = "index.html";
 }
 
 function fetchRequest(file, formData) {
